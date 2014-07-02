@@ -1,0 +1,16 @@
+{
+  "name": "library",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm install && tsd reinstall",
+    "build": "tsc --declaration --module commonjs index.ts transforms.ts"
+  },
+  "devDependencies": {
+    "typescript": "~1.0.1",
+    "tsd": "~0.5.7"
+  },
+  "dependencies": {
+    "when": "~3.2.3"
+  }
+}
