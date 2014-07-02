@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "npm install && tsd reinstall",
-    "build": "tsc --declaration --module commonjs index.ts transforms.ts"
+    "build": "tsc --declaration --module commonjs index.ts transforms.ts ; ./convert_to_ambient_external_declarations.js"
   },
   "devDependencies": {
     "typescript": "~1.0.1",

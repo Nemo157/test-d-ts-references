@@ -1,2 +1,3 @@
 *.ts
 !*.d.ts
+convert_to_ambient_external_declarations.js
