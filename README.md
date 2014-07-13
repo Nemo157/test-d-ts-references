@@ -23,8 +23,8 @@ Note the error messages from typescript
 View the developer console
 
     cd ../..
-    git clone https://git01.codeplex.com/forks/nemo157/dtsmoduleresolution
-    cd dtsmoduleresolution
+    git clone --branch develop https://git01.codeplex.com/forks/nemo157/typescript
+    cd typescript
     npm install -g jake
     jake local
     cp built/local/{tsc.js,lib.d.ts,typescript.js} ../test-d-ts-references/application/node_modules/typescript/bin
