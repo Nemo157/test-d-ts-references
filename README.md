@@ -23,7 +23,7 @@ Note the error messages from typescript
 View the developer console
 
     cd ../..
-    git clone --branch develop https://git01.codeplex.com/forks/nemo157/typescript
+    git clone --branch npm https://git01.codeplex.com/forks/nemo157/typescript
     cd typescript
     npm install -g jake
     jake local
